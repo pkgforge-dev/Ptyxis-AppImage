@@ -20,7 +20,7 @@ export PATH_MAPPING='
 # Deploy dependencies
 quick-sharun \
               /usr/bin/ptyxis  \
-              /usr/lib/ptyxis-agent  \
+              #/usr/lib/ptyxis-agent  \
 
 # Additional changes can be done in between here
 
