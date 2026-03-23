@@ -15,7 +15,8 @@ export DEPLOY_GSTREAMER=1
 
 # Deploy dependencies
 quick-sharun \
-              /usr/bin/ptyxis
+              /usr/bin/ptyxis  \
+              /usr/lib/ptyxis-agent  \
 
 # Additional changes can be done in between here
 
