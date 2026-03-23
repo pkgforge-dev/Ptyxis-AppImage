@@ -14,13 +14,13 @@ export DEPLOY_GTK=1
 export DEPLOY_GSTREAMER=1
 
 export PATH_MAPPING='
-  /usr/lib/ptyxis-agent:${SHARUN_DIR}/usr/lib/ptyxis-agent
+  /usr/lib/ptyxis-agent:${SHARUN_DIR}/bin/ptyxis-agent
 '
 
 # Deploy dependencies
 quick-sharun \
               /usr/bin/ptyxis  \
-              #/usr/lib/ptyxis-agent  \
+              /usr/lib/ptyxis-agent  \
 
 # Additional changes can be done in between here
 
