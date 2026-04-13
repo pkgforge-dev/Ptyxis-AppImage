@@ -11,7 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/org.gnome.Ptyxis.svg
 export DESKTOP=/usr/share/applications/org.gnome.Ptyxis.desktop
 export DEPLOY_GTK=1
-
+export URUNTIME_PRELOAD=1
 export PATH_MAPPING='
   /usr/lib/ptyxis-agent:${SHARUN_DIR}/bin/ptyxis-agent
 '
